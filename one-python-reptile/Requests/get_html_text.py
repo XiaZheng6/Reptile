@@ -13,5 +13,5 @@ def getHTMLText(url):
 
 
 if __name__ == '__main__':
-	url = 'https://api.genedock.com/'
+	url = 'https://book.douban.com/subject/1084336/comments/'
 	print getHTMLText(url)

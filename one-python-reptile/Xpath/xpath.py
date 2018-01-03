@@ -1,7 +1,9 @@
+import requests
 from lxml import etree
 
-html = 
+url = 'https://book.douban.com/subject/1084336/comments/'
+r = requests.get(url).text
+# print r 
+s = etree.HTML(r)
 
-s = etree.HTML(html)
-
-print s.xpath()
+print s.xpath('//*[@id="comments"]/ul/li[1]/div[2]/p/text()')
