@@ -11,13 +11,13 @@ my_set = db.lagou
 
 headers = {
 			'Cookie':'',
-			'Referer':'https://www.lagou.com/jobs/list_python%E8%BF%90%E7%BB%B4?city=%E5%8C%97%E4%BA%AC&cl=false&fromSearch=true&labelWords=&suginput=',
+			'Referer':'https://xxxxxxxx/jobs/list_python%E8%BF%90%E7%BB%B4?city=%E5%8C%97%E4%BA%AC&cl=false&fromSearch=true&labelWords=&suginput=',
 		}
 
 
 def get_python_op(page, kd):
 	for i in range(page):
-		url = 'https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false&isSchoolJob=0'
+		url = 'https://xxxxxxxxm/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false&isSchoolJob=0'
 		payload = {
 			'first':'true',
 			'pn':i,
