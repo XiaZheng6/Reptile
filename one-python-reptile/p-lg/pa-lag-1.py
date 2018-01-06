@@ -8,7 +8,7 @@ client = MongoClient('mongodb://')
 db = client.reptile
 my_set = db.lagou
 
-url = 'https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false&isSchoolJob=0'
+url = 'https://xxxxxxx/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false&isSchoolJob=0'
 payload = {
 	'first':'true',
 	'pn':'1',
