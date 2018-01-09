@@ -1,0 +1,12 @@
+## Request对象
+### 基础参数
+* url
+> 请求的url
+* callback
+> 请求回来的re
+* meta
+> 用来在“页面”之间传递数据
+* headers
+> 页面的headers数据
+* cookies
+> 设置页面的cookies
