@@ -10,3 +10,12 @@
 > 页面的headers数据
 * cookies
 > 设置页面的cookies
+### 高级参数
+* encoding
+> 请求的转换编码
+* priority
+> 链接优先级
+* dont_filter
+> 强制不过滤
+* errback
+> 错误回调
