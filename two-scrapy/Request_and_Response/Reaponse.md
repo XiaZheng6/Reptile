@@ -1,0 +1,22 @@
+## Response对象
+### 基础参数
+* url
+> 请求的url
+* body
+> 请求回来的html
+* meta
+> 用来在“页面”之间传递数据
+* headers
+> 页面的headers数据
+* cookies
+> 设置页面的cookies
+* Request
+> 发出这个response的request对象
+----
+### 对象方法
+* copy():
+* replace():
+* urljoin():
+> 将页面相对路径传入，返回绝对路径
+* follow():
+> 传入一个相对路径直接返回一个request对象
